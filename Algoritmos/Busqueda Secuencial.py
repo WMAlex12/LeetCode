@@ -6,7 +6,7 @@ def busqueda_secuencial(lista,elemento):
     return -1
 
 mi_lista = [1,3,6,9,2]
-elemento_buscado = 6
+elemento_buscado = 2
 
 resultado = busqueda_secuencial(mi_lista, elemento_buscado)
 if resultado != -1:
