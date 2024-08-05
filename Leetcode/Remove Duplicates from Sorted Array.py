@@ -11,8 +11,9 @@ class Solution:
                nums[k] = nums[i]
                
         
-        # for i in range(k + 1, len(nums)):
-        #         nums[i] = "_"
+        for i in range(k + 1, len(nums)):
+            print(i)
+            nums[i] = "_"
 
         return k + 1
     
